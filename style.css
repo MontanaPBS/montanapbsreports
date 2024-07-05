@@ -338,9 +338,7 @@ h2.subheader.preview {
 .watch-container{
     background-color: black;
     
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
