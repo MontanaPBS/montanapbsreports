@@ -23,6 +23,23 @@ root {
 
 }
 
+@font-face {
+    font-family: 'PBS Sans';
+    font-weight: 400;
+    src: url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans.woff2') format('woff2'),
+      url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans.woff') format('woff');
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PBS Sans';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans-It.woff2') format('woff2'),
+      url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans-It.woff') format('woff');
+    font-display: swap;
+  }
+  
 
 
 body {
@@ -93,7 +110,7 @@ a {
 }
 
 .nav-container {
-    background-color: black;
+    background-color:#1a1a1a;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -189,7 +206,7 @@ a {
     background-size: auto 4rem, auto;*/
     margin-top: 0;
     padding: 3rem 0 0 0;
-    background-color: black;
+    background-color:#1a1a1a;
     margin-bottom: 0;
   
 }
@@ -259,6 +276,14 @@ a {
     
 }
 
+.funder-logo-image.large {
+    display: grid;
+   justify-self: center;
+    width: 15rem;
+    padding: 1rem 0 1rem 0;
+    
+}
+
 .funder-logo-image.r-bar {
     height: 6rem;
 }
@@ -267,6 +292,7 @@ a {
 .subheader {
     margin: 0;
     padding: 0;
+    color: #384fff ;
 }
 
 .subheader.season {
@@ -336,7 +362,7 @@ h2.subheader.preview {
 
 
 .watch-container{
-    background-color: black;
+    background-color: #1a1a1a;
     
    
     display: grid;
@@ -452,9 +478,25 @@ h2.subheader.preview {
 
 
 .title {
+    font-family:PBS Sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    color: white;
     padding: 1rem 0 0 0;
 }
 
+
+.title-italic {
+    font-family:PBS Sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  
+    font-size: 1.3rem;
+    color: #384fff;
+    
+}
 .staff-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -546,7 +588,7 @@ p.provided-text {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background-color: black;
+    background-color:#1a1a1a;
     padding: 0rem 0 7rem 0;
   
 }
