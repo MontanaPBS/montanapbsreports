@@ -150,12 +150,12 @@ a {
     "a"
     "b"
     "c";
-    background-image: url("images/impact-vertical-clean.png");
+    /*background-image: url("images/impact-vertical-clean.png");
     background-position:center, bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    margin-top: 0;
+    margin-top: 0;*/
    
    
 }
@@ -744,11 +744,12 @@ ul.link-list {
     text-align: left;
 }
 
-.subheader {
+.subheader.footer {
     margin: 0;
     padding: 1rem 0 0 0 ;
     color: #384fff ;
     text-align: left;
+    font-size: 1.18rem;
     
     
     
@@ -756,6 +757,11 @@ ul.link-list {
 
 a:hover {
     text-decoration: underline;
+}
+
+.logo-image.footer {
+    align-self: center;
+    
 }
 
 
@@ -770,7 +776,7 @@ a:hover {
 
 @media (min-width: 1200px) {
     
-    
+   
     
     .hero-container {
         display: grid;
@@ -973,7 +979,7 @@ a:hover {
         align-items: center;
         justify-items: center;
         margin-top: 17rem;
-        /*background-image: url("images/doig-paper-background.jpg");*/
+        background-image: url("images/doig-paper-background.jpg");
         background-color: #1e4078;
         background-size: cover;
         background-position: center;
