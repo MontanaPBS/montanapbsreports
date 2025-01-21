@@ -86,7 +86,9 @@ h3 {
     color: white;
    }
 
-
+h2 a {
+    color: rgb(56, 79, 255);
+}
 
 a {
     text-decoration: none;
