@@ -776,7 +776,7 @@ a:hover {
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
     
    
     
@@ -790,7 +790,7 @@ a:hover {
         ;
         justify-content: center;
         align-content: center;
-        background-image: url("images/impact-clean-2025.jpg");
+        background-image: url("images/impact-clean-horizontal-web-2025.jpg");
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -817,6 +817,8 @@ a:hover {
      
     
     }
+
+    
   
 
     .logo-image.large {
