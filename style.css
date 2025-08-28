@@ -156,7 +156,7 @@ a {
     background-position:center, bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 90vh;
     margin-top: 0;
    
    
@@ -794,7 +794,7 @@ a:hover {
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 90vh;
+        min-height: 60vh;
         margin-top: 0;
         max-height: 80%;
        
@@ -822,7 +822,7 @@ a:hover {
   
 
     .logo-image.large {
-        max-width: 40rem;
+        max-width: 30rem;
         
     }
 
