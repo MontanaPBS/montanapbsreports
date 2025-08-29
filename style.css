@@ -145,7 +145,7 @@ a {
     
 }
 
-.hero-container {
+/*.hero-container {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -160,7 +160,47 @@ a {
     margin-top: 0;
    
    
+}*/
+
+.hero-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    justify-content: center;
+    align-content: center;
+    background-image: url("images/impact-clean-horizontal-web-2025.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(60vh * (100vw / 800));
+    width: auto;
+    margin-top: 0;
+   
+   
 }
+
+/*.hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    ;
+    justify-content: center;
+    align-content: center;
+    background-image: url("images/impact-clean-horizontal-web-2025.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    margin-top: 0;
+    max-height: 80%;
+   
+}*/
 
 .hero-item {
     grid-area: c;
@@ -780,7 +820,7 @@ a:hover {
     
    
     
-    .hero-container {
+    /*.hero-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -798,7 +838,7 @@ a:hover {
         margin-top: 0;
         max-height: 80%;
        
-    }
+    }*/
 
    .hero-item {
     grid-area: b;
