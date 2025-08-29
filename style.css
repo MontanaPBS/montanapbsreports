@@ -142,7 +142,7 @@ a {
 
 .logo-image.large {
     max-width: 25rem;
-    
+    width: 50vw;
 }
 
 .hero-container {
